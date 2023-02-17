@@ -65,8 +65,13 @@ Number_of_Large_Vehicles_Text = insertText(Number_of_Small_Vehicles_Text, [345 1
 Coordinate_of_Center_Point = round(Coordinate_of_Center_Point); % rounding the value of the center coordinate after the comma
 
 
-first_lane_first_coordinate_count=[110 235]; first_lane_second_coordinate_count=[415 265]; second_lane_first_coordinate_count=[415 235]; second_lane_second_coordinate_count=[630 265]; third_lane_first_coordinate_count=[630 235]; third_lane_second_coordinate_count=[870 265]; % first line of each lane (vehicle counting line)
-first_lane_first_coordinate_count_open=[110 266]; first_lane_second_coordinate_count_open=[415 296]; second_lane_first_coordinate_count_open=[415 266]; second_lane_second_coordinate_count_open=[630 296]; third_lane_first_coordinate_count_open=[630 266]; third_lane_second_coordinate_count_open=[870 296]; % second line of each lane (turns on vehicle counting)
+first_lane_first_coordinate_count=[110 235]; first_lane_second_coordinate_count=[415 265]; % first line of each lane (vehicle counting line)
+second_lane_first_coordinate_count=[415 235]; second_lane_second_coordinate_count=[630 265]; 
+third_lane_first_coordinate_count=[630 235]; third_lane_second_coordinate_count=[870 265]; 
+
+first_lane_first_coordinate_count_open=[110 266]; first_lane_second_coordinate_count_open=[415 296]; % second line of each lane (turns on vehicle counting)
+second_lane_first_coordinate_count_open=[415 266]; second_lane_second_coordinate_count_open=[630 296]; 
+third_lane_first_coordinate_count_open=[630 266]; third_lane_second_coordinate_count_open=[870 296]; 
 
 Total_Number_of_Vehicles=first_lane_counter+secont_lane_counter+third_lane_counter; % total number of vehicles variable
 
