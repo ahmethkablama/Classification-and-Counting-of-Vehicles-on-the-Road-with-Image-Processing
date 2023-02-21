@@ -8,7 +8,8 @@ graph LR
 A(Video Frame) --> B(Gussian Frame)
 B --> D(Computer Vision Frame)
 D --> E(Lines Frame)
-E --> A
+E --> F(Counter Algorithm)
+F --> A
 ```
 
 ## 
