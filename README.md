@@ -5,7 +5,7 @@ While developing the project, MatLab Computer Vision Toolbox was used. Many oper
 
 You can run the video used in the project by downloading it via [**Google Drive**](https://drive.google.com/file/d/1-Mw80VX0W6ZSHe1v2MP_h5Acat7efBJs/view) link and make improvements on it.
 
-> **Note:** Since the Computer Vision plugin is not included in the standard license, you may need to purchase an additional purchase to your current license, and your code may not work if your license level is not suitable for it.
+> **Note:** Since the [Computer Vision Toolbox](https://www.mathworks.com/products/computer-vision.html) is not included in the standard license, you may need to purchase an additional purchase to your current license, and your code may not work if your license level is not suitable for it.
 
 
 ## Capture or Acquire a Video
