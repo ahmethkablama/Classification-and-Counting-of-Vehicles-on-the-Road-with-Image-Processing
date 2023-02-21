@@ -3,6 +3,14 @@ Image processing project in MatLab that counts the vehicles moving on the road b
 
 While developing the project, MatLab Computer Vision Toolbox was used. Many operations such as detecting moving vehicles, framing, and determining the center point were performed with MatLab Computer Vision Toolbox.
 
+```mermaid
+graph LR
+A(Video Frame) -- Gaussian Filter --> B(Gussian Frame)
+B -- Computer Vision --> D(C.V. Frame)
+D -- Lines and Counter --> E(Lines Frame)
+E --> A
+```
+
 ## 
 
 ![1111](https://user-images.githubusercontent.com/29388602/220310651-857b763f-6bfe-4dcb-9871-a1de786bfaa3.gif)
