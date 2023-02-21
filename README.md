@@ -5,9 +5,9 @@ While developing the project, MatLab Computer Vision Toolbox was used. Many oper
 
 ```mermaid
 graph LR
-A(Video Frame) --> B(Gussian Frame)
-B --> D(Computer Vision Frame)
-D --> E(Lines Frame)
+A(Video Frame) --> B(Gussian Fr.)
+B --> D(Computer Vision Fr.)
+D --> E(Lines Fr.)
 E --> F(Counter Algorithm)
 F --> A
 ```
