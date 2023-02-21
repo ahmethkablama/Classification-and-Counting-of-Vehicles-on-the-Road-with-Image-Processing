@@ -3,7 +3,7 @@ clc
 clear all
 close all
 
-video = VideoReader('cc.mp4'); % video upload step. video path
+video = VideoReader('video.mp4'); % video upload step. video path
 
 % Separating foreground from background using Gaussian blending models (moving object detection)
 ObjectDetector = vision.ForegroundDetector('NumGaussians', 3, 'NumTrainingFrames', 300, 'MinimumBackgroundRatio', 0.3 );
