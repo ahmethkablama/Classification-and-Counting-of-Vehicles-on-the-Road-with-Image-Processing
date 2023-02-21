@@ -5,27 +5,31 @@ While developing the project, MatLab Computer Vision Toolbox was used. Many oper
 
 ## 
 
-![My Movie 1111](https://user-images.githubusercontent.com/29388602/219982369-dd2a56c4-4a52-4e9f-b45f-f10a9ffdf2e5.gif)
-
-## 
-
-![My Movie 2222](https://user-images.githubusercontent.com/29388602/219982692-1a907d36-1d14-4f60-9530-b67514f7a4e4.gif)
-
-## 
-
-![My Movie 3333](https://user-images.githubusercontent.com/29388602/219982695-74a69f15-c4fb-481b-91be-0dd2e4e7de8a.gif)
-
-## 
-
-![My Movie 4444](https://user-images.githubusercontent.com/29388602/219982708-87d862b9-9467-4603-a506-190cb4cdda48.gif)
-
-## 
-
+![1111](https://user-images.githubusercontent.com/29388602/220310651-857b763f-6bfe-4dcb-9871-a1de786bfaa3.gif)
 
 
 ## 
 
+![2222](https://user-images.githubusercontent.com/29388602/220310672-a706eb8a-d5c3-476d-917b-a6eeea3a0be7.gif)
 
 
 ## 
+
+![3333](https://user-images.githubusercontent.com/29388602/220310688-ad7e6d5e-417c-43cc-a138-b373eebc4f17.gif)
+
+
+## 
+
+![4444](https://user-images.githubusercontent.com/29388602/220310696-321fc9b5-4236-4b89-b070-894c0e73d4cd.gif)
+
+
+## 
+
+![5555](https://user-images.githubusercontent.com/29388602/220310711-2fe4213f-9f01-426a-8219-8a456b8e2287.gif)
+
+
+## 
+
+![6666](https://user-images.githubusercontent.com/29388602/220310728-2639300a-a87c-4e69-85bb-0ff2f9ac911a.gif)
+
 
