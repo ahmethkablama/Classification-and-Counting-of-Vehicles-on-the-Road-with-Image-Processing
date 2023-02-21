@@ -34,24 +34,24 @@ Since the video shooting angle and video resolution are high, the video was trim
 
 A special Gaussian filter was used to detect moving objects. Pixels lower than a certain value have been cleaned to remove the surrounding noise.
 
+![3333](https://user-images.githubusercontent.com/29388602/220310688-ad7e6d5e-417c-43cc-a138-b373eebc4f17.gif)
+
      ObjectDetector =  vision.ForegroundDetector('NumGaussians', 3, 'NumTrainingFrames', 300, 'MinimumBackgroundRatio', 0.3 );
      
      NoiseRemoval = strel('square', 2); 
-
-![3333](https://user-images.githubusercontent.com/29388602/220310688-ad7e6d5e-417c-43cc-a138-b373eebc4f17.gif)
 
 
 ## Engulfing Vehicles and Determining the Center Point with Computer Vision
 
 With the Computer Vision library available in MatLab, we squared the moving objects (vehicles) that emerged with the gaussian filter and determined the center point and got the coordinate information.
 
+![4444](https://user-images.githubusercontent.com/29388602/220310696-321fc9b5-4236-4b89-b070-894c0e73d4cd.gif)
+
     Bounding_Box = vision.BlobAnalysis('BoundingBoxOutputPort', true, 'AreaOutputPort', false, 'CentroidOutputPort', false, 'MinimumBlobArea', 1900);
     
     Bounding_Centre_Point = vision.BlobAnalysis('BoundingBoxOutputPort', false, 'AreaOutputPort', false, 'CentroidOutputPort', true, 'MinimumBlobArea', 1900);
     
     Bounding_Area = vision.BlobAnalysis('BoundingBoxOutputPort', false, 'AreaOutputPort', true, 'CentroidOutputPort', false, 'MinimumBlobArea', 1900);
-
-![4444](https://user-images.githubusercontent.com/29388602/220310696-321fc9b5-4236-4b89-b070-894c0e73d4cd.gif)
 
 
 ## Counting Algorithm with Double Line Method
