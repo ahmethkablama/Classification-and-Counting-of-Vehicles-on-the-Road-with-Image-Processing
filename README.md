@@ -8,6 +8,7 @@ You can run the video used in the project by downloading it via [**Google Drive*
 > **Note:** Since the [Computer Vision Toolbox](https://www.mathworks.com/products/computer-vision.html) is not included in the standard license, you may need to purchase an additional purchase to your current license, and your code may not work if your license level is not suitable for it.
 
 
+
 ## Capture or Acquire a Video
 
 The project is built on a video previously taken from the overpass. For your own project, you should shoot or provide a video that will see the vehicles from the top.
