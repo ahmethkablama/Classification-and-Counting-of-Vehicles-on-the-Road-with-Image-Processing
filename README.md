@@ -3,6 +3,10 @@ Image processing project in MatLab that counts the vehicles moving on the road b
 
 While developing the project, MatLab Computer Vision Toolbox was used. Many operations such as detecting moving vehicles, framing, and determining the center point were performed with MatLab Computer Vision Toolbox.
 
+You can run the video used in the project by downloading it via [**Google Drive**](https://drive.google.com/file/d/1-Mw80VX0W6ZSHe1v2MP_h5Acat7efBJs/view) link and make improvements on it.
+
+> **Note:** Since the Computer Vision plugin is not included in the standard license, you may need to purchase an additional purchase to your current license, and your code may not work if your license level is not suitable for it.
+
 ```mermaid
 graph LR
 A(Video Frame) --> B(Gussian Fr.)
@@ -44,8 +48,8 @@ With the Computer Vision library available in MatLab, we squared the moving obje
 
 A double line counter mechanism is used for vehicle counting. This algorithm works as follows;
 
-1. When the vehicle comes to the first line (white line), it counts the vehicle in that lane and closes the counting process in the lane.
-2. When the vehicle comes to the second line (black line), it turns on the vehicle counting system in that lane again.
+ 1. When the vehicle comes to the first line (white line), it counts the vehicle in that lane and closes the counting process in the lane.
+ 2. When the vehicle comes to the second line (black line), it turns on the vehicle counting system in that lane again.
 
 The algorithm that performs a kind of switch operation basically works by turning on and off the lane counting operation.
 
