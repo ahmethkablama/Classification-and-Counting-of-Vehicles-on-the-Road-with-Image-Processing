@@ -7,14 +7,6 @@ You can run the video used in the project by downloading it via [**Google Drive*
 
 > **Note:** Since the Computer Vision plugin is not included in the standard license, you may need to purchase an additional purchase to your current license, and your code may not work if your license level is not suitable for it.
 
-```mermaid
-graph LR
-A(Video Frame) --> B(Gussian Fr.)
-B --> D(Computer Vision Fr.)
-D --> E(Lines Fr.)
-E --> F(Counter Algorithm)
-F --> A
-```
 
 ## Capture or Acquire a Video
 
