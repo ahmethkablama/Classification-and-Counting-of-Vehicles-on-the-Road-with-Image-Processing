@@ -54,7 +54,7 @@ The algorithm that performs a kind of switch operation basically works by turnin
 
 ## Displaying Vehicle Numbers on the Screen
 
-
+Finally, the number of vehicles assigned to the variables in the background is completed by adding counters and colored lines on the screen.
 
 ![6666](https://user-images.githubusercontent.com/29388602/220310728-2639300a-a87c-4e69-85bb-0ff2f9ac911a.gif)
 
