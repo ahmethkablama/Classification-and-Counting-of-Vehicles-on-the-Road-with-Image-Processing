@@ -12,9 +12,9 @@ You can run the video used in the project by downloading it via [**Google Drive*
 ## Capture or Acquire a Video
 
 The project is built on a video previously taken from the overpass. For your own project, you should shoot or provide a video that will see the vehicles from the top.
-<p align="center">
+
 ![1111](https://user-images.githubusercontent.com/29388602/220310651-857b763f-6bfe-4dcb-9871-a1de786bfaa3.gif)
-<p align="center">
+
 
 ## Lowering the Resolution and Narrowing the View Angle
 
